@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: royalblue;
+    background-image: url(gta5.png);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 20px;
+    color: orange;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    font-size: 23px;
+    font-family: 'Prompt', sans-serif;
+}
+
+li{    
+    display: flex;
+    list-style: none;
+    font-size: 27px;
+    font-family: 'Prompt', sans-serif;
+    margin: 2.5px;
+    padding: 1.5px;
+    /* background-color: black; */
+}
+
+#ch{
+    /* background-color: greenyellow; */
+    width: 25px;
+    height: 23px;
+    pointer-events: none;
+}
+
+#tr{
+    /* background-  color:red; */
+    width: 25px;
+    height: 23px;
+    pointer-events: none;
+}
+
+#plus{
+    width: 25px;
+    height: 23px;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.todo{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    background: white;
+    color: black;
+    padding: 1px 5px 1px 5px;
+}
+
+.todo li{
+    flex: 1;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
